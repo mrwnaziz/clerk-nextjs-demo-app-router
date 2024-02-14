@@ -51,17 +51,17 @@ export default function RootLayout({
           <header className="flex items-center h-20 gap-4 px-4 border-b border-black border-solid sm:px-8 border-opacity-20">
             <Link href="/" className="flex items-center h-20 gap-2 sm:gap-4">
               <Image
-                src="/clerk.svg"
-                alt="Clerk Logo"
+                src="/ArabicAI.svg"
+                alt="ArabicAI Logo"
                 width={102}
                 height={32}
                 priority
               />
               <Times />
               <Image
-                src="/next.svg"
-                alt="Next.js Logo"
-                width={90}
+                src="/maf.svg"
+                alt="MAF Logo"
+                width={160}
                 height={18}
                 priority
               />
@@ -89,14 +89,14 @@ export default function RootLayout({
           <main className="grow">{children}</main>
           <footer className="flex items-center h-20 gap-1 px-8 font-medium border-t md:px-20">
             <Image
-              src="/clerk.svg"
-              alt="Clerk Logo"
+              src="/arabicai.svg"
+              alt="arabic ai Logo"
               width={64}
               height={32}
               priority
             />
             <span className="text-sm">© 2023</span>
-            <nav className="flex justify-end grow sm:gap-2">
+            {/* <nav className="flex justify-end grow sm:gap-2">
               <a
                 className="flex gap-2 px-3 py-2 text-sm font-semibold text-gray-600 transition duration-100 rounded-md hover:text-gray-800"
                 href="https://clerk.com/docs?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
@@ -128,7 +128,7 @@ export default function RootLayout({
               >
                 <Discord />
               </a>
-            </nav>
+            </nav> */}
           </footer>
         </body>
       </ClerkProvider>
